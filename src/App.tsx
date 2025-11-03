@@ -1,4 +1,3 @@
-// src/Landing.tsx
 export default function Landing() {
   const kakaoUrl = "https://open.kakao.com/o/sZvu7dZh";
   const handleApply = () => {
