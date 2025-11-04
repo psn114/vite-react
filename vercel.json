@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/kakao", "destination": "/kakao.html", "permanent": false }
+  ]
+}
