@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 // 단일 파일로 라우팅(해시 기반) + 홈페이지 섹션 + 신청서 페이지까지 포함한 버전
 // - 홈:    https://www.psn114.com/#/
@@ -216,3 +216,38 @@ function ApplyPage() {
     </div>
   );
 }
+
+
+/* ===============================
+   ADD/REPLACE THESE FILES TOO
+   =============================== */
+
+/* ---- /index.html (Vite 기본 템플릿, 직접 iframe 넣지 마세요) ---- */
+/*
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSN | Privacy Secret Number</title>
+  </head>
+  <body class="bg-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+*/
+
+/* ---- /src/main.tsx (App 마운트) ---- */
+/*
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css"; // Tailwind 사용중이면 유지
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+*/
